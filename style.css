@@ -11,7 +11,6 @@ body {
   margin: 0 auto;
 }
 #topo {
-  border: 1px red solid;
   height: 180px;
   background: url(imagens/detalhe-topo.png) no-repeat right top;
   padding-top: 25px;
@@ -34,4 +33,26 @@ ul {
 }
 #topo ul li {
   float: left;
+}
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #FFF;
+  background: url(imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+  background: none;
+}
+#topo ul a:hover {
+  color: #69001d;
+}
+body.home #navegacao a#home,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+  color: #FFF;
+  background: #de003e;
+  cursor: text;
 }
