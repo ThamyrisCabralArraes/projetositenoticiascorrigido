@@ -56,3 +56,29 @@ body.fotos #navegacao a#fotos {
   background: #de003e;
   cursor: text;
 }
+#conteudo {
+  margin-top: 60px ;
+  background: #f5f5f5;
+}
+#primario {
+  width: 270px;
+  float: left;
+}
+#secundaria {
+  width: 270px;
+  float: left;
+}
+#lateral {
+  width: 180px;
+  float: left;
+}
+#rodape {
+  clear: both;
+  background: #294c71;
+  padding: 20px;
+}
+#rodape2 {
+  width: 750px;
+  margin: 0 auto;
+  color: #FFF;
+}
